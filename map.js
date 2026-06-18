@@ -1,9 +1,10 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 // 1. 地図の初期化（HTMLファイル読み込み時に実行）
 //////////////////////////////////////////////////////////////////////////////////////////
-const map = L.map('map',
+const map = L.map('map', {
+    center: [51.505, -0.09],
     zoom: 13
-});     // https://leafletjs.com/reference.html#map-example を参照
+});    // https://leafletjs.com/reference.html#map-example を参照
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'

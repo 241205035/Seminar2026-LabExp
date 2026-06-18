@@ -177,8 +177,7 @@ function applyFilters() {
                         <tr><th>エリア:</th><td>${data.area}</td></tr>
                         <tr><th>行政区:</th><td>${data.dist}</td></tr>
                         <tr><th>所在地:</th><td>${data.addr}</td></tr>
-                        //ここにその他のCSVデータを表示するコードを書く→88行目参照num, lat, lng, area, dist, addr
-                    </table>
+                        </table>
                 </div>
             `;
 

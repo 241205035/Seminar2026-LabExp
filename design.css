@@ -47,7 +47,7 @@ header h1 { font-size: 1.2rem; font-weight: 500; margin-bottom: 5px; }
 }
 
 .map-container { flex: 1; height: 100%; }
-#map { width: 100%; height: 100%; }
+#map { width: 100%; height: 100%; min-height: 600px; }
 
 .upload-area {
     border: 2px dashed var(--accent-color);
@@ -140,10 +140,4 @@ header h1 { font-size: 1.2rem; font-weight: 500; margin-bottom: 5px; }
     white-space: nowrap;
     vertical-align: top;
 }
-#map {
-    width: 100%;
-    height: 100%;
-    min-height: 600px; 
-}
-
 .popup-table td { padding: 4px 0; color: #1a202c; word-break: break-all; }
